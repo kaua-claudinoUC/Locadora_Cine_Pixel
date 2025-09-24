@@ -40,7 +40,7 @@ O sistema "Cine Pixel" simula as operações básicas de uma locadora, permitind
 
 Este projeto foi estruturado para atender a todos os critérios de POO exigidos na avaliação:
 
-- **Classes e Objetos:** O sistema é modularizado em várias classes que representam entidades do mundo real (`Filme`, `Funcionario`) e serviços (`Locadora`). A classe `Main` orquestra a criação e interação desses objetos.
+- **Classes e Objetos:** O sistema é modularizado em várias classes que representam entidades do mundo real (`Filme`, `Funcionario`) e serviços (`Locadora`). A classe `CinePixel` orquestra a criação e interação desses objetos.
 
 - **Encapsulamento:** Todos os atributos das classes de modelo (`Filme`, `Funcionario`, etc.) são declarados como `private`, com acesso controlado por meio de métodos `getters` e `setters`.
 
@@ -50,7 +50,7 @@ Este projeto foi estruturado para atender a todos os critérios de POO exigidos 
 
 - **Coleções:** A classe `Locadora` utiliza `ArrayList` do Java Collections Framework para armazenar em memória a lista de funcionários cadastrados e o catálogo de filmes.
 
-- **Tratamento de Erros:** A classe `Main` utiliza blocos `try-catch` para lidar com `InputMismatchException`, garantindo que o programa não encerre abruptamente caso o usuário digite um texto em um menu que espera um número.
+- **Tratamento de Erros:** A classe `CinePixel` utiliza blocos `try-catch` para lidar com `InputMismatchException`, garantindo que o programa não encerre abruptamente caso o usuário digite um texto em um menu que espera um número.
 
 ### 4. Tecnologias Utilizadas
 
